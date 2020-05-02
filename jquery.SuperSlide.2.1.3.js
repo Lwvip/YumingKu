@@ -4,7 +4,7 @@
             type: "slide",
             effect: "fade",
             autoPlay: !1,
-            delayTime: 500,
+            delayTime: 9000,
             interTime: 2500,
             triggerTime: 150,
             defaultIndex: 0,
