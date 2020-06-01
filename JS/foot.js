@@ -1,4 +1,4 @@
-$(".qqtale")[0].firstChild.href = "http://wpa.qq.com/msgrd?v=3&uin=992029892&site=qq&menu=yes"
+
 $("#sub_01").append('<li><a href="/1/">备 案 域 名</a></li>');
 //$(".new-user").detach();
 $("#mainlevel_10").detach();
@@ -21,6 +21,8 @@ $('.orders .paicontent ul').detach();
 $(".orders .paicontent").append('<ul><li><strong>一口价推荐：</strong></li><li><a href="/mai-yes.htm?23594476" target="_blank" class="paidomain">81ym.cn</a><br></li><li><a href="https://www.bojinmi.com" target="_blank" class="paidomain">bojinmi.com</a><br></li><li><a href="/mai-yes.htm?23995035" target="_blank" class="paidomain">Lwvip.com</a><br></li><li><a href="/mai-yes.htm?23995032" target="_blank" class="paidomain">szmqhx.Com</a><br></li><li><a href="/mai-yes.htm?ym=quduomi.com" target="_blank" class="paidomain">quduomi.com</a><br></li><li style="margin-right:0;"><a href="/mai-yes.htm?24035929" target="_blank" class="paidomain">siyinet.Com</a><br></li></ul>');
 }
 
+if($(".loginBtn").length > 0){
+$(".qqtale")[0].firstChild.href = "http://wpa.qq.com/msgrd?v=3&uin=992029892&site=qq&menu=yes"
 var iframe = setInterval(function(){
 if($("iframe").length > 0){
 $("iframe").remove();
@@ -31,6 +33,7 @@ qqhma.firstChild.innerHTML  = '<span style="display:block">在线客服（9:00-2
 }
 console.log(1);
 },1)
+}
 //var script= document.createElement("script");
 //script.type= "text/javascript";
 //script.src= "http://img.chaicp.com/kf22.js?isdl=43225&qqhm=992029892&dhhm=400-997-2996&qqlj=http://wpa.qq.com/yes&tpurl=http://img.chaicp.com";
